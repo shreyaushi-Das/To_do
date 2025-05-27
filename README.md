@@ -17,4 +17,5 @@ A simple and beginner-friendly console-based **To-Do App** built in Python. This
 2. Clone or download the repository.
 3. Open a terminal in the project folder.
 4. Run the code.
-
+Created with ❤️ by Shreyaushi  
+For any questions or improvements, feel free to reach out!
