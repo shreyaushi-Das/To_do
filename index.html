@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="welcome-note">Welcome to To_Do📜🖊</h1>
+  <h2 class="wish-note">Hope you have a productive day!(❁´◡`❁)</h2>
+
+  <div class="first-row">
+      <div class="add-button">
+        <input id="task-input" class="add" type="text" placeholder="Add task here...">
+        <button id="add-btn">Add Task</button>
+      </div>
+       <div class="delete-button">
+        <input id="delete-task" class="delete" type="text" placeholder="Task # to delete...">
+        <button id="delete-btn">Delete Task</button>
+       </div>
+  </div>
+
+  <div class="second-row">
+      <input id="old-task" class="old-task" type="text" placeholder="Task # to update">
+      <button id="update-btn" class="update">Update</button>
+      <input id="new-task" class="new-task" type="text" placeholder="New task text">
+     </div>
+
+    <div class="view-tasks">
+      <button id="view-btn" class="view">View Tasks</button>
+    </div>
+
+    <div id="task-display-area">
+      <table id="task-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Task</th>
+            <th>Done?</th>
+          </tr>
+        </thead>
+        <tbody id="task-table-body">
+        </tbody>
+      </table>
+    </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>

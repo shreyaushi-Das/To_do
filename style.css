@@ -1,0 +1,80 @@
+/* --- Main Layout and Centering --- */
+body {
+    display: flex; /* Makes the body a flex container */
+    flex-direction: column; /* Stacks children vertically (headings, rows, etc.) */
+    align-items: center; /* Centers all children horizontally on the page */
+    justify-content: center; /* Centers the content vertically on the page */
+    min-height: 100vh; /* Makes the body take up the full height of the screen */
+    font-family: sans-serif;
+    background-color: #d5eb9a;
+    gap: 20px; /* Adds space between all the main elements (rows, headings) */
+}
+
+/* --- Row Containers --- */
+.first-row, .second-row {
+    display: flex; /* This is the key! It makes these divs flex containers */
+    align-items: center; /* Vertically aligns items in the middle of the row */
+    gap: 15px; /* Adds space between the items inside the row */
+}
+
+
+/* --- Styling for Inputs and Buttons for a better look --- */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: lightpink;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: plum;
+}
+
+.view {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* --- Styling for the Task Display Table --- */
+#task-display-area {
+    width: 80%;
+    max-width: 600px; /* Ensures table is not too wide on large screens */
+    margin-top: 20px;
+}
+
+#task-table {
+    width: 100%;
+    border-collapse: collapse; /* Removes space between cell borders */
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#task-table th, #task-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#task-table th {
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+}
+
+#task-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Makes table easier to read */
+}
+
+/* This is the class your JS adds to completed tasks */
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
