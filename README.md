@@ -1,21 +1,37 @@
-# ✅ Python To-Do App (Console Based)
+ # 📝 To-Do Webpage
 
-A simple and beginner-friendly console-based **To-Do App** built in Python. This app helps you manage your tasks with the following options:
+A simple, minimalistic, and efficient To-Do list web app built using **HTML**, **CSS**, and **JavaScript**. This project helps users manage their daily tasks with core functionalities like adding, updating, deleting, and marking tasks as done—all in a clean tabular format.
 
-### 🔹 Features
-- ➕ **Add Task** – Add new items to your to-do list.
-- 🗑️ **Delete Task** – Remove tasks that you’ve completed or no longer need.
-- ✏️ **Update Task** – Modify existing tasks.
-- 👀 **View Tasks** – Display your current task list.
-- 🚪 **Exit** – Quit the application.
+---
 
-### 💻 Technologies Used
-- Python 3
+## 🚀 Features
 
-### ▶️ How to Run
-1. Make sure Python is installed on your system.
-2. Clone or download the repository.
-3. Open a terminal in the project folder.
-4. Run the code.
-Created with ❤️ by Shreyaushi  
-For any questions or improvements, feel free to reach out!
+- ✅ **Add Tasks**  
+  Input your task and click "Add" to see it appear in the list instantly.
+
+- 🗑️ **Delete Tasks**  
+  Delete a task by entering its **index number**—not the task text—making it efficient and typo-proof.
+
+- ✏️ **Update Tasks**  
+  Update existing tasks using their index numbers to quickly overwrite with new content.
+
+- 📋 **Task Table Layout**  
+  Your tasks are displayed in a neatly structured table with the following columns:
+  - `#` – Serial number
+  - `Task` – Task description
+  - `Done?` – Checkbox to mark task as completed
+
+- 🎯 **Mark as Done**  
+  Once a task is marked as done via the checkbox:
+  - The task text gets **line-through styling**
+  - The task color turns **gray**, visually indicating its completion
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML** – Structure and layout
+- **CSS** – Styling and layout with Flexbox & table formatting
+- **JavaScript** – Core logic for dynamic task management
+
+
